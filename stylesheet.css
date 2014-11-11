@@ -1,17 +1,26 @@
 #amor {
-	background-image: url(images/pucllana1.jpg);
-	background-size: 100%;
-	height: 30em;
-}
-#pucllana {
 	background-image: url(images/parqueDeAmor.jpg);
 	background-size: 100%;
 	height: 30em;
 }
-p {
-	font-family: Helvetica;
+#amorText1 {
+	padding-top: 5em;
+	font-family: Garamond;
+	font-size: 1.3em;
+	font-style: bold;
+}
+#pucllana {
+	background-image: url(images/pucllana1.jpg);
+	background-size: 100%;
+	height: 30em;
 }
 .incaTrailMap {
 	margin: 0 auto;
-	display: block;
+}
+.mapWrap {
+	margin: 0 auto;
+}
+
+.block {
+	width: 100%;
 }

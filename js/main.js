@@ -1,16 +1,20 @@
     $(document).ready(function() {
         var scrollorama = $.scrollorama({
-            blocks:'.fade'
+            blocks:'.block'
         });
-        scrollorama.animate('.fade',{
-        duration:400, delay:500, property:'opacity'
+        scrollorama.animate('#amorText1',{
+        duration:75, 
+        delay:0, 
+        property:'left',
+        start: 1400,
+        end: 0
     })           
  });
 
 
-//     $(function(){
-//         $.stellar({
-//         horizontalScrolling: true, 
-//         verticalOffset: -300
-//     });
-// });
+    $(function(){
+        $.stellar({
+        horizontalScrolling: true, 
+        verticalOffset: -300
+    });
+});
