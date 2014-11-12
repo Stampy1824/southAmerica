@@ -23,6 +23,20 @@
 	text-align: center;
 	padding-top: 4em;
 }
+#cat1 {
+	background-image: url(images/cat1.jpg);
+	background-size: 100%;
+	height: 40em;
+}
+#catText1 {
+	text-align: center;
+	color: white;
+}
+#catText2 {
+	padding-top: 12em;
+	color: white;
+	text-align: center;
+}
 .incaTrailMap {
 	margin: 0 auto;
 }
