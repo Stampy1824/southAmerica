@@ -11,16 +11,26 @@
         
     </head>
     <body>
+        <!--Class of 'block' is passed to javascript, because parent elements of scroll animated stuff needs it-->
+        <!--Ids given to parent element of scroll-animated text, images are attached through the CSS using stellar.js-->
     	<div class="block" id="trailstart" data-stellar-background-ratio=".5">
-                <p class='textLight' id='trailstarttext1'>
-                    Here we are at the start<br>
-                    of the inca trail. </p>
+            <!--IDs given to P tags or parents of P tags and passed into javascript for scrolling animations-->
+                <div id='trailstarttext1'>
+                    <p class='textLight'>
+                    So it begins </p>
+                </div>
                 <p class='textLight'id='trailstarttext2'>
-                    At this point we'd<br> been up for 5 hours<br> already. It was 9 AM.</p>
+                    At this point we'd<br> been up for 5 hours<br> already.
+                <p class='textLight' id='trailstarttext3' style='-webkit-transform: rotate(0deg);'>
+                    It was 9 AM! Woohoo!</p>
         </div>
         <div id="bridgeview" class='block' data-stellar-background-ratio=".5">
-            <p class='fade'id>
+            <p class='textLight'id='bridgeviewtext1'>
+                The Scenery was alright
             </p>
+            <p class='textLight' id='bridgeviewtext2'>
+                The rapids were terrifying
+
         </div>
         <div class="mapWrap block">
             <iframe class="incaTrailMap" id="llactaPata" width="750" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=200690037802084016640.0004676cd46aa26c7896a&amp;msa=0&amp;source=gplus-ogsb&amp;ie=UTF8&amp;ll=-13.209148,-72.485175&amp;spn=0.110883,0.123338&amp;t=h&amp;iwloc=0004676cf58d377acecd8&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msid=200690037802084016640.0004676cd46aa26c7896a&amp;msa=0&amp;source=embed&amp;ie=UTF8&amp;ll=-13.209148,-72.485175&amp;spn=0.110883,0.123338&amp;t=h&amp;iwloc=0004676cf58d377acecd8" style="color:#0000FF;text-align:left">Inca Trail</a> in a larger map</small>
