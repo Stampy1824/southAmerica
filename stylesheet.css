@@ -1,18 +1,19 @@
-#amor {
-	background-image: url(images/parqueDeAmor.jpg);
+#trailstart {
+	background-image: url(images/trailstart.jpg);
 	background-size: 100%;
-	height: 30em;
+	height: 60em;
 }
-#amorText1 {
-	padding-top: 5em;
-	font-family: Garamond;
-	font-size: 1.3em;
-	font-style: bold;
+#trailstarttext1 {
+	padding-left: 35em;
+	padding-top: 4em;
 }
-#pucllana {
-	background-image: url(images/pucllana1.jpg);
+#trailstarttext2 {
+	padding-top: 13em;
+}
+#bridgeview {
+	background-image: url(images/bridgeview.jpg);
 	background-size: 100%;
-	height: 30em;
+	height: 80em;
 }
 .incaTrailMap {
 	margin: 0 auto;
@@ -23,4 +24,10 @@
 
 .block {
 	width: 100%;
+}
+.textLight{
+	font-style: bold;
+	color: black;
+	font-family: Garamond;
+	font-size: 2em;
 }
