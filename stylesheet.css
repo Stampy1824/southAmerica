@@ -10,6 +10,9 @@
 #trailstarttext2 {
 	padding-top: 13em;
 }
+#trailstarttext3 {
+	text-align: center;
+}
 #bridgeview {
 	background-image: url(images/bridgeview.jpg);
 	background-size: 100%;

@@ -23,19 +23,19 @@
         end: 500
     })           
  });
- //       $(document).ready(function() {
- //        var scrollorama = $.scrollorama({
- //            blocks:'.block'
- //        });
- //        scrollorama.animate('#trailstarttext3',{
- //        duration:80, 
- //        delay:250, 
- //        property:'opacity',
- //        start: 0,
- //        end: 1
+       $(document).ready(function() {
+        var scrollorama = $.scrollorama({
+            blocks:'.block'
+        });
+        scrollorama.animate('#trailstarttext3',{
+        duration:80, 
+        delay:300, 
+        property:'opacity',
+        start: 0,
+        end: 1
 
- //    })           
- // });
+    })           
+ });
        $(document).ready(function() {
         var scrollorama = $.scrollorama({
             blocks:'.block'
