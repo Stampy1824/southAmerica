@@ -99,6 +99,31 @@
     })           
  });
 
+$(document).ready(function() {
+        var scrollorama = $.scrollorama({
+            blocks:'.block'
+        });
+        scrollorama.animate('#catText3',{
+        duration:80, 
+        delay: 300,
+        property:'opacity',
+        start: 0,
+        end: 1
+    })           
+ });
+
+$(document).ready(function() {
+        var scrollorama = $.scrollorama({
+            blocks:'.block'
+        });
+        scrollorama.animate('#catText4',{
+        duration:80, 
+        delay: 200,
+        property:'opacity',
+        start: 0,
+        end: 1
+    })           
+ });
 
     $(function(){
         $.stellar({
